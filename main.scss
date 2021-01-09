@@ -1,0 +1,148 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.formulario {width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    text-align: right;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(200,200,200,0.8);
+    
+& h1 {
+    padding: 20px;
+}}
+
+form {
+    background: blanchedalmond;
+    padding: 50px;
+}
+    
+
+.wrapper {
+    position: relative;
+    padding: 20px;
+}
+.page1 {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.page1 button{
+    
+    width: 200px;
+    font-weight: 700;
+}
+input, textarea {
+    border: 1px solid brown;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.icons{
+    font-size: 30px;
+    color: burlywood;
+    display: flex;
+    justify-content: space-between;
+    }
+
+.salida{
+    position: absolute;
+    font-size: 30px;
+    color: rgb(245, 109, 68);
+    right: -15px;
+    top: -15px;
+    
+    }
+
+i, .salida {
+    cursor: pointer;
+}
+
+button {
+    cursor: pointer;
+    background: brown;
+    color: white;
+    padding: 15px;
+    border: none;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+input:focus, textarea:focus{
+    border-color: burlywood;
+    outline: none;
+}
+.flex
+{
+    display:flex;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 20px;
+}
+.box {display: grid;
+    grid-template-columns: repeat(1,1fr);
+    height: 100px;
+    grid-gap: 20px;
+}
+
+.users {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background: blanchedalmond;
+    padding: 20px;
+}
+.card {
+    text-align: center;
+    border: 1px solid brown;
+    border-radius: 20px;
+    padding: 20px;
+    background: white;
+}
+
+.card img {
+    border-radius: 100%;
+    border: 3px solid brown;
+    margin-bottom: 20px;
+}
+
+.card h2 {
+    margin-bottom: 10px;
+}
+
+.card div {
+    margin-bottom: 10px;
+}
+
+.tarjetas {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    ;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(200,200,200,0.8);
+
+}
+

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+        integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="page1">
+            <button class="add">Agregar Mascota</button>
+
+        </div>
+        <div class="formulario">
+            <form>
+                <h1>Agregar mascota</h1>
+                <div class="grid">
+                    <input type="text" required placeholder="Nombre" id="js_name">
+                    <input type="text" required placeholder="Apellido" id="js_lastname">
+                </div>
+                <div class="grid">
+                    <input type="text" required placeholder="Mail"  id="js_mail">
+                    <input type="text" required placeholder="Teléfono"  id="js_phone">
+                </div>
+                <div class="grid">
+                    <input type="text" required placeholder="País"  id="js_country">
+                    <input type="text" required placeholder="URL"  id="js_url">
+                </div>
+                <div class="box">
+                    <textarea type="text" required placeholder="Sobre él / ella" id="js_comment"></textarea>
+                </div>
+                <div class="grid">
+                    <button type="submit" class = "aceptar">Aceptar</button>
+                    <button class ="cancel">Cancelar</button>
+                </div>
+            </form>
+        </div>
+        <div class="tarjetas">
+            
+            <div id="container" class="users">
+                <i class="fas fa-times-circle salida"></i>
+               
+            </div>
+        </div>
+    </div>
+<script src="./sctipt.js"></script>
+</body>
+
+</html>
